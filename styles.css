@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Bitter', serif;
+}
+body{
+    background: gray;
+}
+h1
+{
+    text-align: center;
+    margin: 0.7em 0;
+    font-size: 3em;
+}
+form{
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+    flex-direction: column;
+}
+form > *{
+    font-size: 1.2em;
+    margin-top: 1.5em;
+    padding: 0.8em;
+    outline: none;
+    background: white;
+    border: none;
+    border-radius: 4px;
+}
+form .btn
+{
+    cursor: pointer;
+    border: none;
+    background: black;
+    color: white;
+    margin-bottom: 1em;
+    transition: all 0.3s ease-in-out;
+}
+form .btn:hover{
+    background: rgb(76, 62, 62);
+    color: white;
+}
+::placeholder{
+    color: black;
+}
+.notes
+{
+    max-width: 80%;
+    margin: 1em  auto;
+    padding: 1em;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid black;
+    background: rgba(214, 214, 87, 0.664);
+    
+}
+.notes > *
+{
+    margin-top: 0.5em;
+}
+
+.note-count
+{
+    font-weight: 900;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+.note-title,.note-text
+{
+    margin-top: 0.5em;
+}
+
+
+.editButton , .deleteButton
+{
+    max-width: 50%;
+    padding: 0.5em;
+    font-size: 0.8em;
+    margin-top: 1em;
+    cursor: pointer;
+    align-items: center;
+    border: none;
+}
+.deleteButton{
+    background: rgb(168, 27, 27);
+    color: white;
+}
+.editButton{
+    margin-right: 0.5em;
+    background: black;
+    color: white;
+
+}
+#taskContainer
+{
+    max-width: 80%;
+    margin: 0 auto;
+    font-size: 1.3em;
+    border-radius: 8px;
+    padding: 1em;
+}
